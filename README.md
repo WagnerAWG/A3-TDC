@@ -1,2 +1,2 @@
-# A3-Teoria_da_computa-o
+# A3-Teoria_da_computação
 Um compilador educacional simplificado
