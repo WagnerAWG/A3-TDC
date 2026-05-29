@@ -1,0 +1,5 @@
+BUILD/
+.vscode/
+*.class
+*.jar
+*.war
