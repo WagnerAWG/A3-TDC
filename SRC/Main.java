@@ -15,11 +15,12 @@
  *   Etapa 3 - Semantico: Linguagem Sensivel ao Contexto (CSL)
  *   Etapa 5 - Execucao: Maquina de Turing (processamento sequencial)
  */
-import ui.ConsoleUI;
+import ui.compilerframe;
 
 public class Main {
     public static void main(String[] args) {
-        ConsoleUI ui = new ConsoleUI();
-        ui.start();
+        java.awt.EventQueue.invokeLater(() -> {
+            new compilerframe().setVisible(true);
+        });
     }
 }
